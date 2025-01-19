@@ -1,0 +1,16 @@
+.barcode-scanner-card {
+    max-width: 600px;
+    margin: var(--lwc-spacingNone, 0) auto;
+    border-radius: var(--lwc-varSpacingXSmall, 0.5rem);
+    box-shadow: var(--lwc-spacingNone, 0) 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+lightning-input {
+    margin-bottom: 1rem;
+}
+
+
+
+
+

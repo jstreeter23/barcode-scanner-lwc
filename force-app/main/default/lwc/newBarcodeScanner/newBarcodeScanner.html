@@ -1,0 +1,12 @@
+<template>
+    <lightning-card class="barcode-scanner-card" title="Barcode Scanner">
+        <div class="slds-var-p-around_medium">
+            <lightning-input label="Scan Barcode" onkeypress={handleBarcodeInput} data-barcode-input></lightning-input>
+            <p class="slds-var-m-bottom_x-small">Last Item Scanned: {lastScannedSerial}</p>
+            <p class="slds-var-m-bottom_x-small">Count: {barcodeCount}</p>
+            <lightning-button label="Show All" title="Non-primary action" onclick={handleClick} class="slds-var-m-left_x-small"></lightning-button>
+            
+    
+        </div>
+    </lightning-card>
+</template>
